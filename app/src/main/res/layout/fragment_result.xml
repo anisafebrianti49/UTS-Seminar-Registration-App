@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <!-- CARD TICKET -->
+        <LinearLayout
+            android:id="@+id/rootTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_card"
+            android:elevation="8dp"
+            android:padding="16dp">
+
+            <!-- LEFT -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:paddingEnd="12dp">
+
+                <!-- LOGO -->
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo_event"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- 🔥 SEMINAR DI ATAS -->
+                <TextView
+                    android:id="@+id/tvSeminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Seminar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#5B4B8A"
+                    android:layout_marginBottom="4dp"/>
+
+                <!-- TANGGAL -->
+                <TextView
+                    android:id="@+id/tvTanggalJam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal &amp; Jam"
+                    android:textSize="12sp"/>
+
+                <!-- LOKASI -->
+                <TextView
+                    android:id="@+id/tvLokasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lokasi"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- GARIS -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DDDDDD"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- NAMA -->
+                <TextView
+                    android:id="@+id/tvNama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Peserta"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- INFO -->
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tvHP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No HP"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tvInstansi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instansi"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- ID -->
+                <TextView
+                    android:id="@+id/tvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID: SEM0000"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <!-- PEMISAH -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#CCCCCC"/>
+
+            <!-- RIGHT -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingStart="12dp">
+
+                <ImageView
+                    android:id="@+id/imgQR"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@android:color/white"
+                    android:padding="6dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scan Check-in"
+                    android:textSize="10sp"
+                    android:layout_marginTop="6dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Jangan lupa download atau share tiket kamu"
+            android:textColor="#D32F2F"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- DOWNLOAD -->
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Download PDF"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="20dp"/>
+
+        <!-- 🔥 SHARE (FIX ERROR) -->
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Share ke WhatsApp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"/>
+
+        <!-- BACK -->
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Kembali ke Beranda"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- APP -->
+    <string name="app_name">Form Registrasi</string>
+
+    <!-- AUTH -->
+    <string name="registrasi">Registrasi</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Konfirmasi Password</string>
+    <string name="daftar">Daftar</string>
+
+    <!-- FORM USER -->
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="instansi">Instansi</string>
+
+    <!-- GENDER -->
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+
+    <!-- LAINNYA -->
+    <string name="kota">Kota</string>
+    <string name="hobi">Hobi (minimal 3)</string>
+    <string name="membaca">Membaca</string>
+    <string name="musik">Musik</string>
+    <string name="olahraga">Olahraga</string>
+    <string name="gaming">Gaming</string>
+    <string name="traveling">Traveling</string>
+
+    <!-- AGREEMENT -->
+    <string name="setuju">Saya menyetujui data yang diisi sudah benar</string>
+
+    <!-- HOME -->
+    <string name="halo_user">Halo, %1$s 👋</string>
+    <string name="kategori_semua">Semua</string>
+    <string name="kategori_tech">Tech</string>
+    <string name="kategori_softskills">Soft Skills</string>
+    <string name="empty_seminar">Seminar tidak ditemukan</string>
+    <string name="lihat_riwayat">Lihat Riwayat Tiket</string>
+
+    <!-- FORM SEMINAR -->
+    <string name="pilih_status">-- Pilih Status --</string>
+    <string name="status_mahasiswa">Mahasiswa</string>
+    <string name="status_dosen">Dosen</string>
+    <string name="status_umum">Umum</string>
+
+    <string name="pilih_sumber">-- Sumber Info --</string>
+    <string name="sumber_instagram">Instagram</string>
+    <string name="sumber_whatsapp">WhatsApp</string>
+    <string name="sumber_teman">Teman</string>
+
+    <!-- RESULT / TICKET -->
+    <string name="id_format">ID: %1$s</string>
+    <string name="tanggal_jam_format">%1$s • %2$s</string>
+    <string name="download_tiket">Download Tiket (PDF)</string>
+    <string name="kembali_home">Kembali ke Home</string>
+    <string name="share_wa">Share ke WhatsApp</string>
+    <string name="scan_qr">Scan Check-in</string>
+
+    <!-- HISTORY -->
+    <string name="riwayat_tiket">Riwayat Tiket</string>
+    <string name="empty_history">Belum ada tiket</string>
+
+</resources>
